@@ -1,31 +1,148 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Cafezito</title>
-    <link rel="shortcut icon" href="./img/icons8-cafe-67.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/icons8-cafe-67.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
-<body>
-    <header>
+
+<body class="body">
+    <header class="header">
+        <nav class="header-nav">
+            <div class="header-nav__container">
+                <a href="#iHero" class="header-nav__link-logo-container">
+                    <img src="./img/cafezito-Logo.png" alt="cafezito-Logo" width="250" height="80" class="header-nav__link-logo" />
+                </a>
+                <ul class="header-nav__menu-list-container">
+                    <li>
+                        <a href="#iHero" class="header-nav__menu-link">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="#iClientes" class="header-nav__menu-link">Clientes</a>
+                    </li>
+                    <li>
+                        <a href="#iContacto" class="header-nav__menu-link">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="#iRedesSociales" class="header-nav__menu-link">Redes Sociales</a>
+                    </li>            
+                </ul>
+            </div>            
+            
+        </nav>
 
     </header>
     <main>
-        <h1>CAFEZITO PERU</h1>
-        <h2>El mejor cafe del mundo se encuentra en OXAPAMPA, PASCO -PERU</h2>
-        <p>
-            CAFEZITO PERU  es elaborado con granos seleccionados de nuestros cafetales
-            ubicados en el Valle de ACUZAZU en OXAPAMPA, PASCO -PERU a una altura de 
-            1900 msnm. En la selva de Niebla, ideal para el proceso Orgánico desde la
-            siembra a la cosecha, tostado y envasado que garantiza el sabor y aroma 
-            100% Peruano.
-        </p>
-        <a href="">PEDIDOS</a>
-        <img src="./img/Cafezito-img.jpg" alt="Cafezito-img">
+        <article class="i-hero" id="iHero">
+            <div class="i-hero__container">
+                <div class="i-hero__info-container">
+                    <h1 class="i-hero__info-title">CAFEZITO PERU</h1>
+                    <h2 class="i-hero__info-subtitle">El mejor cafe del mundo se encuentra en OXAPAMPA, PASCO -PERU</h2>
+                    <p class="i-hero__info-paragraph">
+                        CAFEZITO PERU  es elaborado con granos seleccionados de nuestros cafetales
+                        ubicados en el Valle de ACUZAZU en OXAPAMPA, PASCO -PERU a una altura de 
+                        1900 msnm. En la selva de Niebla, ideal para el proceso Orgánico desde la
+                        siembra a la cosecha, tostado y envasado que garantiza el sabor y aroma 
+                        100% Peruano.
+                    </p>
+                    <a href="https://www.facebook.com/Rodtiigo" class="i-hero__info-link">PEDIDOS</a>
+                </div>
+                
+            </div>
+            <div class="i-hero__img-container">
+                <div class="i-hero__img-pro-tech-container">
+                    <img src="./img/Cafezito-img.jpg" alt="Cafezito-img" width="256" height="256"class="i-hero__img-pro" />
+                    <figure class="i-hero__img-tech-container">
+                        <img src="./img/icons8-granos-de-café-100.png" alt="css3" width="64" height="64" class="i-hero__img-tech" />
+                        <img src="./img/icons8-café-para-llevar-80.png" alt="html5" width="64" height="64" class="i-hero__img-tech" />
+                        <img src="./img/icons8-café-para-llevar-80.png" alt="JS" width="64" height="64" class="i-hero__img-tech" />
+                        <img src="./img/icons8-granos-de-café-100.png" alt="react" width="64" height="64" class="i-hero__img-tech" />
+                    </figure>
+
+                </div>
+                
+
+            </div>
+            
+
+        </article>       
+
+        <section id="iClientes">
+            <h2 class="i-hero__info-subtitle">Clientes</h2>
+            <p class="i-hero__info-paragraph">Algunos de nuestros clientes satisfechos en nuestras ferias a nivel nacional</p>
+            <figure>
+                <img src="./img/27628962_1339816346122457_3020335392574924747_o.jpg" alt="" width="256" height="256" />
+                <img src="./img/37835786_1509872115783545_6804116387510878208_n.jpg" alt="" width="256" height="256" />
+                <img src="./img/69321969_2070693799701371_4275524494447083520_n.jpg" alt="" width="256" height="256" />
+                <img src="./img/42443900_1592049150899174_7835594535022362624_n.jpg" alt="" width="256" height="256" />
+                <img src="./img/42537013_1592048834232539_7868392412828139520_n.jpg" alt="" width="256" height="256" />
+                <img src="./img/67780877_2049211781849573_1945967669417082880_n.jpg" alt="" width="256" height="256" />
+
+            </figure>
+            
+
+
+        </section>
+
+        <section class="i-contacto" id="iContacto">
+            <h2 class="i-main__contacto-subtitle">Contacto</h2>
+                
+                <form>
+                    <input type="text" name="name" placeholder="Nombre" maxlength="250" required />
+                    <br>
+                    <br>
+                    <input type="number" name="phone" placeholder="Celular"  min="900000000" max="999999999" required />
+                    <br>  
+                    <br>                  
+                    <input type="email" name="email" placeholder="Correo" required/> 
+                    <br>
+                    <br>                   
+                    <button type="button">Enviar</button>                                       
+                </form>                
+
+        </section>
+
+        <section class="i-redesSociales" id="iRedesSociales">
+
+            <nav>
+                    <div class="i-hero__info-container">
+                        <h2 class="i-main__redes-subtitle">Siguenos en nuestras Redes Sociales</h2>
+                        <p class="i-main__redes-paragraph">
+                            Ingresa a nuestras redes sociales para brindarles mayor informacion con respecto
+                            a nuestro productos de cafezito.
+                        </p>
+                        <ul class="main-nav__menu-redes-container">
+                            <li>
+                                <a href="https://www.facebook.com/Cafezito-Peru-1707072589547779">
+                                    <img src="./svg/icons8-facebook-nuevo.svg" alt="facebook" width="50" height="50" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="./svg/icons8-whatsapp.svg" alt="whatsapp" width="50" height="50" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/arandaybanez/">
+                                    <img src="./svg/icons8-instagram-viejo.svg" alt="instagram" width="50" height="50" />
+                                </a>
+                            </li>
+                        </ul>                    
+                        
+                    </div>    
+    
+        </section>
 
 
     </main>
+
+    <footer class="footer">
+                <h2><img src="./img/icons8-trabajando-con-una-computadora-portátil-windows-11-color-32.png" alt="programador"> Copyright © 2022 <a href="https://github.com/Drocu" target="_blank" rel="noopener noreferrer">Rodrigo Aranda</a> Todos los derechos reservados.<img src="./img/icons8-trabajando-con-una-computadora-portátil-windows-11-color-32.png" alt="programador"></h2>                       
+    </footer>
     
 
 </body>
