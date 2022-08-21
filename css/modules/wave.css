@@ -1,0 +1,12 @@
+.wave {
+    position: relative;
+    margin: 0;
+}
+.wave--reverse {
+    margin: -0.0339rem 0;
+    transform: rotate(180deg);
+}
+.wave__img {
+    display: block;
+    width: 100%;
+}
