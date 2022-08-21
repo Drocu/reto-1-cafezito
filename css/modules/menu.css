@@ -58,7 +58,7 @@
 
 .menu__img:hover {
     transform: scale(1.25);
-    color: var(--secondary-highlight-color);
+    color: var(--tertiary-shadow-theme-color);
 }
 
 @media (min-width: 768px) {
