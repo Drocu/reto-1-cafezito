@@ -13,7 +13,7 @@
 }
 
 .list__item:hover {
-    background-color: var(--secondary-shadow-color);
+    background-color: var(--tertiary-shadow-theme-color);
 }
 
 .list__item:last-child {

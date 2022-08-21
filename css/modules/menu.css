@@ -53,8 +53,6 @@
     color: var(--primary-text-color);
     display: block;
     font-size: 1.75rem;
-    /* width: 48px;
-    height: 48px; */
     transition: transform 0.25s;
 }
 
@@ -77,8 +75,6 @@
     }
     
     .menu__img {
-    /* width: 64px;
-    height: 64px; */
     font-size: 2rem;
     }
 }

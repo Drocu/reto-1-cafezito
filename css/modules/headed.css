@@ -5,7 +5,6 @@
     right: 0;
     width: 100%;
     background-color: var(--primary-shadow-color);
-    /* border-bottom: 0.125rem solid var(--reverse-primary-shadow-color) ; */
     box-shadow: 0 0 0.0625rem 0.0625rem var(--reverse-primary-shadow-color);
 }
 
@@ -57,16 +56,6 @@
     font-size: 0.75rem;
     margin: 0;
 }
-
-/* .footer__title::before {
-    content: '';
-    position: absolute;
-    top: -0.75rem;
-    left: 0;
-    width: 100%;
-    height: 0.125rem;
-    background-color: var(--reverse-primary-shadow-color);
-} */
 
 .footer__link {
     color: var(--secondary-highlight-color);

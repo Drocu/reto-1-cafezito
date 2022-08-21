@@ -4,7 +4,7 @@
 }
 
 .section--secondary {
-    background-color: var(--secondary-shadow-color);
+    background-color: var(--tertiary-shadow-theme-color);
 }
 
 .section--hero {
@@ -105,7 +105,7 @@
 
 .section--contacto {
     position: relative;
-    background-image: url(../../img/fondo-3.1.webp);
+    background-image: url(../../img/16776457-café-en-el-fondo-de-madera-con-hojas-verdes.webp);
     background-size: cover;
     background-position: center;
 }
