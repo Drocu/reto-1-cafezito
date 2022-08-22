@@ -78,6 +78,7 @@
     align-items: center;
     gap: 2rem;
 }
+
 .container--nosotros {
     display: flex;
     flex-direction: column;
@@ -85,22 +86,34 @@
     gap: 2rem;
     padding: 2rem;
 }
-
-.container--clientes {
+/**/
+.container--grid {
     display: grid;
     grid-template-columns: repeat(1,1fr);
     gap: 1rem;
 }
-
-.container--clientes__img {
-    padding: 1rem;
-}
+/**/
 
 .container--element {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: var(--padding-section);
+}
+
+.clientes__img{
+    height: 256px;
+    width: 341px;
+    margin: 15px 0;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+.clientes__img:hover {
+    height: 341px;
+    width: 426px;
+    margin-left: -50px;
 }
 
 .section--contacto {
@@ -117,7 +130,7 @@
         gap: 4rem;
     }
 
-    .container--clientes {
+    .container--grid {
         grid-template-columns: repeat(2,1fr);
     }
 }
